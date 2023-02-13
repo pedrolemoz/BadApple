@@ -5,7 +5,7 @@ import time
 import threading
 
 audio_file = os.path.join(os.getcwd(), 'assets', 'bad_apple.wav')
-delay = 0.01588  # 1000 / 60 -> 16.66 ms -> 0.01666 sec -> 0.01588 sec (sync)
+delay = 0.01549  # 1000 / 60 -> 16.66 ms -> 0.01666 sec -> 0.01549 sec (sync)
 
 threading.Thread(
     target=playsound,
